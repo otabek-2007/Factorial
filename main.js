@@ -6,7 +6,6 @@ var reset = document.querySelector('#reset')
 
 btn.addEventListener('click', function () {
     if (num.value == '') return 0;
-
     if (num.value < 0) {
         alert('You cannot enter devision number!')
         num.value = ''
